@@ -5,7 +5,7 @@ Web scraping is the process of extracting data from websites by automating the r
   
   ## Task 🚀  
 ●Create a web crawler using python that is able to scrape first  10,000 results for the following
- google search input - "site:youtube.com openinapp.co"
+  google search input - "site:youtube.com openinapp.co"
 
 ● Collect all the given YouTube links of the above search link.
 
@@ -24,4 +24,6 @@ Web scraping is the process of extracting data from websites by automating the r
   ## Output
   Website links fetched from "site:youtube.com openinapp.co" and saved into links (CSV) file in form    
   Youtube linked fetched and channel link genreated using youtube API v3
+  
+  [Video Explanation Link](https://drive.google.com/file/d/1CjCc-ZKqxETNGSeK6j6zOZOGS69gN7zR/view?usp=drive_link)
   

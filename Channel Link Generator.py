@@ -15,7 +15,7 @@ def get_channel_link(channel_id, api_key):
     if "items" in channels_response:
         channel_link = f"https://www.youtube.com/channel/{channel_id}"
         return channel_link
-
+    
     return None
 
 # Example usage
