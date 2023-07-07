@@ -1,4 +1,5 @@
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 
 def get_channel_link(channel_id, api_key):
     # Create a YouTube Data API client
@@ -18,8 +19,8 @@ def get_channel_link(channel_id, api_key):
     return None
 
 # Example usage
-channel_id = "CHANNEL_ID"  # Replace with the actual YouTube Channel ID
-api_key = "YOUR_API_KEY"  # Replace with your YouTube Data API key
+channel_id = "v=trahYtTbEpc"  # YouTube Channel ID
+api_key = "AIzaSyDdX5mNMSRPndAaX5RdlKxeWRJNSIL9haE"  # YouTube Data API key
 
 channel_link = get_channel_link(channel_id, api_key)
 if channel_link:

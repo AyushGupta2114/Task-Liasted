@@ -16,12 +16,13 @@ search_input.send_keys(search_query)
 search_input.submit()
 
 # Wait for the search results to load
-driver.implicitly_wait(100)
+driver.implicitly_wait(5)
 
 # Get the page source after the search
 page_source = driver.page_source
 
 # Close the browser
+#release system resource
 driver.quit()
 
 # Parse the HTML page source using BeautifulSoup
